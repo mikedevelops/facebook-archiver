@@ -1,0 +1,19 @@
+{
+  "name": "Scrape",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.3.0",
+    "winston": "^2.3.1"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^3.5.0"
+  }
+}
