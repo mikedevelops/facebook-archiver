@@ -26,5 +26,3 @@ start();
 
 // let's go
 // facebook.open();
-
-
