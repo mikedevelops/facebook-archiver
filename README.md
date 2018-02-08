@@ -12,11 +12,12 @@ Then get the appropriate geckodriver for your OS/machine (see: http://seleniumhq
 
 
 # Usage
+Set `FACEBOOK_USER` and `FACEBOOK_PASS` to your credentials, then:
 ```shell
-ǹode index.js > images.txt
+ǹode index.js
 mkdir images
 cd images
-cat ../images.txt | sort -u | xargs -n 1 -P 10 wget -q
+cat ../photos.txt | sort -u | xargs -n 1 -P 10 wget -q
 ```
 
 Tips: -P is for the number of parallel download, raise it for faster download
