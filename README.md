@@ -8,7 +8,7 @@ git clone https://github.com/mikedevelops/facebook-archiver.git
 cd facebook-archiver
 npm install
 ```
-Then get the appropriate geckodriver for your OS/machine (see: http://seleniumhq.github.io/selenium/docs/api/javascript/index.html)
+Then get the appropriate geckodriver for your OS/machine (see: http://seleniumhq.github.io/selenium/docs/api/javascript/index.html). It should be accessible from your PATH
 
 
 # Usage
