@@ -1,5 +1,5 @@
 # Facebook Archiver
-Retrieve and download photographs you are tagged in using the selenium-webdriver.
+Retrieve and download Facebook photographs you are tagged in using the selenium-webdriver.
 
 
 # Install
