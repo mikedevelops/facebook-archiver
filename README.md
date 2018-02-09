@@ -1,5 +1,5 @@
-# facebook-archiver
-Get pictures you're tagged in using selenium-webdriver
+# Facebook Archiver
+Retrieve and download photographs you are tagged in using the selenium-webdriver.
 
 
 # Install
@@ -21,3 +21,7 @@ cat ../photos.txt | sort -u | xargs -n 1 -P 10 wget -q
 ```
 
 Tips: -P is for the number of parallel download, raise it for faster download
+
+# Disclaimer
+
+Read Facebook's [Automated Data Collection Terms](https://www.facebook.com/apps/site_scraping_tos_terms.php) before use.
