@@ -21,10 +21,3 @@ async function start () {
 }
 
 start();
-// initiate services
-
-
-// let's go
-// facebook.open();
-
-
