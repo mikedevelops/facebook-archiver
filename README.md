@@ -14,7 +14,7 @@ Then get the appropriate geckodriver for your OS/machine (see: http://seleniumhq
 # Usage
 Set `FACEBOOK_USER` and `FACEBOOK_PASS` to your credentials, then:
 ```shell
-ǹode index.js
+FACEBOOK_USER=mike@github.com FACEBOOK_PASS=*********** node index.js
 mkdir images
 cd images
 cat ../photos.txt | sort -u | xargs -n 1 -P 10 wget -q
